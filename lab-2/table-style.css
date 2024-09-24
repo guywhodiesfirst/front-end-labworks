@@ -1,0 +1,42 @@
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+table td{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 60px;
+    word-break:normal;
+    text-align:center;
+}
+
+tr:hover {
+    transition: 0.3s;
+}
+
+.row-1{
+    background-color: #058f8f;
+    color: #171717;
+}
+
+.row-1:hover {
+    background-color: #171717;
+    color: #058f8f;
+}
+
+
+.row-2 {
+    background-color: #f5f505;
+    color: #525252;
+}
+
+.row-2:hover {
+    background-color: #525252;
+    color: #f5f505;
+}
+
