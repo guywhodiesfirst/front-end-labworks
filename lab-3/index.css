@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+#container {
+    width: 100%;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+#header {
+    background-color: #70A7DF;
+    padding: 10px;
+    width: 100%;
+    min-height: 10vh;
+    align-content: center;
+    text-align: center;
+}
+
+#header h2 {
+    font-size: 20px;
+}
+
+#main {
+    vertical-align: top;
+    min-height: 60vh;
+    width: 100%;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    min-height: 60vh;
+    background-color: #BCE68B;
+}
+
+.float-left {
+    float: left;
+}
+
+#image-right {
+    position: relative;
+    width: 30%;
+    min-height: 60vh;
+    background-color: #93B071;
+}
+
+.float-right {
+    float: right;
+}
+
+#image-right img {
+    position: absolute;
+    height: 300px;
+    max-height: 60%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#image-bottom {
+    min-height: 10vh;
+    width: 100%;
+    background-color: #41F2C2;
+    background-image: url("Garfield.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
