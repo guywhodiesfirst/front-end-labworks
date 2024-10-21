@@ -1,0 +1,65 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.form-container {
+    width: 500px;
+    padding: 40px;
+}
+
+.input-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+input {
+    height: 36px;
+    border-radius: 6px;
+    border: 1px solid gainsboro;
+    padding-left: 6px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgb(104, 126, 99);
+}
+
+.input-fail {
+    background-color: rgb(255, 201, 194);
+}
+
+#submit-btn {
+    margin-top: 8px;
+    padding: 8px 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(222, 239, 253);
+    transition: 0.3s;
+}
+
+#submit-btn:hover {
+    border: 1px solid black;
+    background-color: rgb(185, 224, 255);
+}
