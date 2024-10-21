@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name= "description" content="Labwork #1 for Front-end course">
+    <meta name="keywords" content="HTML, labwork, front-end">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Штанько А.І. ІП-24</title>
+</head>
+<body>
+    
+    <!--Загальна інформація-->
+    <h2>Штанько Арсеній Ігорович</h2>
+    <p>
+        <strong>Місце та дата народження:</strong> Херсон, 31.08.2004
+    </p>
+
+    <!--Освіта-->
+    <p>
+        <strong>Освіта:</strong><br>
+        Загально-освітня школа №57, <em>Херсон</em>;<br>
+        НТУУ "КПІ ім. Ігоря Сікорського", <em>Київ</em>
+    </p>
+
+    <!--Ненумерований список-->
+    <div>
+        <p><strong>Хобі:</strong></p>
+        <!--Завдання 1-->
+        <ul 
+            id="hobby-list"
+            onclick="hobbyListChangeColor()"
+        >
+            <li 
+                class="list-el"
+                onclick="listElChangeColor()"
+            >Колекціонування старих консолей та дисків</li>
+            <li>Настільні ігри</li>
+            <li>Історія (улюблені теми - електоральна історія різних країн, сепаратистські та іредентистські рухи)</li>
+            <li>Наукова фантастика</li>
+        </ul>
+    </div>
+    
+    <!--Нумерований список-->
+    <div>
+        <p><strong>Улюблені відеоігри:</strong></p>
+        <ol>
+            
+            <li>The World Ends With You (Square Enix, 2007, <em>Nintendo DS</em>)</li>
+            <li>Transistor (Supergiant Games, 2014, <em>PC</em>)</li>
+            <li>Super Mario 64 (Nintendo, 1996, <em>Nintendo 64</em>)</li>
+            <li>Dead Space (Visceral Games, 2008, <em>PC</em>)</li>
+            <li>Persona 4 Golden (Atlus, 2011, <em>PlayStation Vita</em>)</li>
+        </ol>
+    </div>
+    
+    <!--Місто, куди подорожував-->
+    <p>
+        Дніпро́ — місто на сході України, на обох берегах річки Дніпро, адміністративний центр Дніпропетровської області.<br>
+        Місто є четвертим за чисельністю населення (968 502 станом на 19.01.2022) в Україні після Києва, Харкова та Одеси.<br>
+        Великий науковий, дослідницький та інноваційний центр. Дніпро вважається «космічною столицею» України та має найдовшу набережну в Європі.
+    </p>
+    <div id="btn-group">
+        <button id="zoom-in-btn">Збільшити</button>
+        <button id="zoom-out-btn">Зменшити</button>
+        <button id="show-img-btn">Показати зображення</button>
+        <button id="hide-img-btn">Приховати зображення</button>
+    </div>
+    <a 
+        target="_blank" 
+        href="https://dniprorada.gov.ua/uk"
+    >
+        <img 
+            src="dnipro-img.jpg" 
+            alt="Центр міста Дніпро"
+        >
+    </a>
+
+    <!--Завдання 2-->
+    <div id="task-2-img-container">
+        <img 
+            src="dnipro-img.jpg" 
+            alt="Центр міста Дніпро"
+            id="task-2-img"
+        >
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body {
+    padding: 20px
+}
+
+#hobby-list {
+    cursor: pointer;
+}
+
+#btn-group {
+    margin-bottom: 14px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
