@@ -10,9 +10,16 @@ body {
     width: 100%;
     height: 100vh; 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow-y: auto;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-container {
@@ -38,6 +45,7 @@ input {
     border-radius: 6px;
     border: 1px solid gainsboro;
     padding-left: 6px;
+    transition: 0.2s;
 }
 
 input:focus {
@@ -56,10 +64,19 @@ input:focus {
     border-radius: 4px;
     cursor: pointer;
     background-color: rgb(222, 239, 253);
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 #submit-btn:hover {
     border: 1px solid black;
     background-color: rgb(185, 224, 255);
+}
+
+.hide {
+    display: none;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: blue;
 }
