@@ -36,7 +36,7 @@ submitBtn.addEventListener('click', async () => {
 
         fields[1].innerHTML = `
         <p>
-            Phone: ${user.phone}
+            Phone: ${user.cell}
         </p>
         `
         fields[2].innerHTML = `
